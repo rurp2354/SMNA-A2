@@ -1,0 +1,13 @@
+{
+  "raw_videos_rows": 26,
+  "raw_comments_rows": 7630,
+  "clean_comments_rows": 7628,
+  "analysis_comments_rows": 7195,
+  "non_latin_excluded": 64,
+  "very_short_comments_in_clean": 431,
+  "weighted_user_video_edges": 4582,
+  "weighted_reply_edges": 3738,
+  "unique_videos_in_clean_comments": 26,
+  "unique_authors_in_clean_comments": 4272,
+  "videos_flagged_low_engagement": 3
+}

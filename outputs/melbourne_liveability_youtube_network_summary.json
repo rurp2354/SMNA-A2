@@ -1,0 +1,16 @@
+{
+  "total_nodes": 4298,
+  "total_edges": 4582,
+  "user_nodes": 4272,
+  "video_nodes": 26,
+  "density": 0.0004961960648035093,
+  "connected_components": 4,
+  "user_projection_nodes": 234,
+  "user_projection_edges": 970,
+  "user_projection_density": 0.03558196691243901,
+  "user_projection_connected_components": 20,
+  "reply_nodes": 2952,
+  "reply_edges": 3718,
+  "reply_density": 0.0004267994221792438,
+  "reply_weakly_connected_components": 124
+}
