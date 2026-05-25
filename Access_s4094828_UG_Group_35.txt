@@ -1,0 +1,23 @@
+SMNA Assignment 2 — Group 35 — Repository access
+
+Team
+- Leon Zaritski   (s4096125)
+- Raphael Urpani  (s4094828)
+
+Repository
+- Platform:   GitHub
+- URL:        https://github.com/rurp2354/SMNA-A2
+- Access:     Shared with the lecturer and team members as collaborators.
+
+Contents of the repository
+- Jupyter notebooks (01_preprocessing, 02_network_analysis, 03_topic_modelling, 04_extensions)
+- Python collection scripts (fetchYoutubeData.py, youtubeClient.py)
+- outputs/ directory with figures, CSV tables, and JSON summaries
+- data_sample/ with a representative < 10 MB subset of the cleaned data
+- This report and the supporting project files
+
+Notes
+- The YouTube Data API key has been removed from youtubeClient.py. The script
+  reads the key from the YOUTUBE_API_KEY environment variable.
+- Run order, dependencies, and notebook-specific package requirements are listed
+  in the repository readme.
