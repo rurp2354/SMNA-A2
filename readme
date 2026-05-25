@@ -1,7 +1,34 @@
-Repository access details
+SMNA Assignment 2 — Melbourne liveability on YouTube — Group 35
 
-Platform: GitHub
-Repository: https://github.com/rurp2354/SMNA-A2
-Access: Shared with lecturer and team members as collaborators
-Contents: notebooks, Python scripts, outputs, representative data sample, and supporting project files
-Notes: API keys removed and replaced with placeholders
+Members:
+- Leon Zaritski   (s4096125)
+- Raphael Urpani  (s4094828)
+
+Repository
+- GitHub: https://github.com/rurp2354/SMNA-A2
+- Access details: see Access_s4096125_UG_Group_35.txt
+
+Run order
+1. python fetchYoutubeData.py      # collection (requires YOUTUBE_API_KEY env var)
+2. 01_preprocessing.ipynb          # cleaning, theme buckets, edge construction
+3. 02_network_analysis.ipynb       # bipartite, reply, thresholded user-user projection
+4. 03_topic_modelling.ipynb        # LDA topic model (K = 6)
+5. 04_extensions.ipynb             # Louvain community detection + VADER sentiment overlay
+
+Dependencies
+- Python 3.10+
+- pandas
+- numpy
+- scikit-learn                     # used for LatentDirichletAllocation, CountVectorizer
+- networkx                         # graphs, centrality, louvain_communities, modularity
+- matplotlib
+- seaborn
+- vaderSentiment                   # REQUIRED by 04_extensions.ipynb for sentiment overlay
+- google-api-python-client         # only needed if re-running fetchYoutubeData.py
+
+Notes
+- The previously hardcoded YouTube Data API key has been removed from
+  youtubeClient.py. The script now reads the key from the YOUTUBE_API_KEY
+  environment variable.
+- A representative cleaned-data sample (< 10 MB) is included in data_sample/.
+- The full reproducible pipeline is the four notebooks above, executed in order.
