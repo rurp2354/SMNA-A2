@@ -6,7 +6,7 @@ Members:
 
 Repository
 - GitHub: https://github.com/rurp2354/SMNA-A2
-- Access details: see Access_s4096125_UG_Group_35.txt
+- Access details: see Access_s4094828_UG_Group_35.txt
 
 Run order
 1. python fetchYoutubeData.py      # collection (requires YOUTUBE_API_KEY env var)
